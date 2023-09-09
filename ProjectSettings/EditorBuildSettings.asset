@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - HandTracking/Scenes/HandInteractionExamples.unity
+    guid: 3dd4a396b5225f8469b9a1eb608bfa57
+  - enabled: 1
+    path: Assets/TLab/TLabWebViewMRTK/Scene/TLabWebView_MRTK.unity
+    guid: 20661ba72fbbf794492e1a186ada1b48
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9c44bf2f78e1aba4bbba9365844efff4, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0a6f9d647195e0340b3062e444cdbe31, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f2566af360d1012479904110bca6f623, type: 2}
