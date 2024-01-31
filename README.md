@@ -2,7 +2,10 @@
 Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 
 ## Note
-This is a project I created for Oculus Quest 2, using the Mixed Reality Toolkit, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system
+- This is a project I created for Oculus Quest 2, using the Mixed Reality Toolkit, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
+- The policy has been changed to manage libraries in the repository as submodules.
+	- Commit ``` 502aa1d ``` If you cloned the project before, please clone the repository again.
+	- Use ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
 
 ## ScreenShot
 <img src="Media/tlab_webview_mrtk_feature.gif" width="512"></img>
