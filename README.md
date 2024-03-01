@@ -6,6 +6,7 @@ Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 - The policy has been changed to manage libraries in the repository as submodules.
 	- Commit ``` 502aa1d ``` If you cloned the project before, please clone the repository again.
 	- Use ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
+- In the sample, interaction with WebView is created based on PanExample, but interaction as uGUI is also possible. Please refer to the sample of ``` TLab\TLabWebView\Scene ```.
 
 ## ScreenShot
 <img src="Media/tlab_webview_mrtk_feature.gif" width="512"></img>
