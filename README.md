@@ -43,7 +43,7 @@ UNITYWEBVIEW_ANDROID_ENABLE_MICROPHONE
 - Specify Oculus as the plug-in provider to be used for Android from XR Plug-in Management
 - Color Space: Linear
 - Graphics: OpenGLES3
-- Minimux API Level: 29
+- Minimum API Level: 29
 - Create Assets/Plugins/Android/AndroidManifest.xml and copy the following text
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
