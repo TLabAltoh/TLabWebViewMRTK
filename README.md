@@ -35,6 +35,9 @@ git clone https://github.com/TLabAltoh/TLabWebViewMRTK.git
 - Change platform to Android from Build Settings
 - Add the following symbols to Project Settings --> Player --> Other Settings (to be used at build time)  
 ```
+UNITYWEBVIEW_ANDROID_SUPPORT_OCULUS
+```
+```
 UNITYWEBVIEW_ANDROID_USES_CLEARTEXT_TRAFFIC
 ```
 ```
