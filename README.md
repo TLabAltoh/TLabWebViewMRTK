@@ -5,11 +5,21 @@ Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 [document is here](https://tlabgames.gitbook.io/tlabwebview)
 
 ## Note
+
+<details><summary>please see here</summary>
+
+### This Repository only for Oculus Quest 2
 - This is a project I created for Oculus Quest 2, using the Mixed Reality Toolkit, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
+
+### Module management policy is updated
 - The policy has been changed to manage libraries in the repository as submodules.
-	- Commit ``` 502aa1d ``` If you cloned the project before, please clone the repository again.
-	- Use ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
+- Commit ``` 502aa1d ``` If you cloned the project before, please clone the repository again.
+- Use ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
+
+### WebView Input System Updated
 - In the sample, interaction with WebView is created based on PanExample, but interaction as uGUI is also possible. Please refer to the sample of ``` TLab\TLabWebView\Scene ```.
+
+</details>
 
 ## ScreenShot
 <img src="Media/tlab_webview_mrtk_feature.gif" width="512"></img>
@@ -26,14 +36,35 @@ Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 - [TLabWebView](https://github.com/TLabAltoh/TLabWebView.git)
 
 ## Get Started
+
 ### Installing
+
 Clone the repository with the following command
+
 ```
 git clone https://github.com/TLabAltoh/TLabWebViewMRTK.git
 ```
-### Set up
-- Change platform to Android from Build Settings
-- Add the following symbols to Project Settings --> Player --> Other Settings (to be used at build time)  
+
+### Set Up
+
+- Build Settings
+
+| Property      | Value   |
+| ------------- | ------- |
+| Platform      | Android |
+
+- Project Settings
+
+| Property          | Value     |
+| ----------------- | --------- |
+| Color Space       | Linear    |
+| Graphics          | OpenGLES3 |
+| Minimum API Level | 29        |
+| Target API Level  | 31        |
+
+
+- Add the following symbols to Project Settings --> Player --> Other Settings (to be used at build time)
+
 ```
 UNITYWEBVIEW_ANDROID_SUPPORT_OCULUS
 ```
@@ -46,11 +77,11 @@ UNITYWEBVIEW_ANDROID_ENABLE_CAMERA
 ```
 UNITYWEBVIEW_ANDROID_ENABLE_MICROPHONE
 ```
-- Specify Oculus as the plug-in provider to be used for Android from XR Plug-in Management
-- Color Space: Linear
-- Graphics: OpenGLES3
-- Minimum API Level: 29
+
 - Create Assets/Plugins/Android/AndroidManifest.xml and copy the following text
+
+<details><summary>manifest example</summary>
+
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
@@ -85,6 +116,9 @@ UNITYWEBVIEW_ANDROID_ENABLE_MICROPHONE
   <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
 </manifest>
 ```
+
+</details>
+
 ### Sample Scene
 - Sample scenes are located in the following directories
 ```
