@@ -9,15 +9,13 @@ Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 <details><summary>please see here</summary>
 
 ### This Repository only for Oculus Quest 2
-- This is a project I created for Oculus Quest 2, using the Mixed Reality Toolkit, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
+This is a project I created for Oculus Quest 2, using the Mixed Reality Toolkit, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
 
-### Module management policy is updated
-- The policy has been changed to manage libraries in the repository as submodules.
-- Commit ``` 502aa1d ``` If you cloned the project before, please clone the repository again.
-- Use ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
+### Module Management Policy Modified
+The policy has been changed to manage libraries in the repository as submodules after commit ``` 4a7a833 ```. Please run ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
 
 ### WebView Input System Updated
-- In the sample, interaction with WebView is created based on PanExample, but interaction as uGUI is also possible. Please refer to the sample of ``` TLab\TLabWebView\Scene ```.
+In the sample, interaction with WebView is created based on PanExample, but interaction as uGUI is also possible. Please refer to the sample of ``` TLab\TLabWebView\Scene ```.
 
 </details>
 
@@ -29,9 +27,9 @@ Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 - Qualcomm Adreno650
 
 ## Requirements
-- Unity 2021.3.23f1
-- TextMeshPro
-- Oculus Integration v56.0
+- Unity 2021.3 LTS
+- [Mixed Reality Toolkit](https://learn.microsoft.com/ja-jp/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05)
+- [Oculus Integration](https://assetstore.unity.com/packages/tools/integration/oculus-integration-deprecated-82022?locale=ja-JP)
 - [TLabVKeyborad](https://github.com/TLabAltoh/TLabVKeyborad.git)
 - [TLabWebView](https://github.com/TLabAltoh/TLabWebView.git)
 
@@ -122,7 +120,7 @@ UNITYWEBVIEW_ANDROID_ENABLE_MICROPHONE
 ### Sample Scene
 - Sample scenes are located in the following directories
 ```
-Assets\TLab\TLabWebViewMRTK\Scene\TLabWebView_MRTK.unity
+Assets\TLab\TLabWebViewMRTK\Scene\TLabWebView MRTK Sample.unity
 ```
 - Build and run the sample scene to Oculus Quest 2
 
