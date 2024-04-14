@@ -41,6 +41,10 @@ Clone the repository with the following command
 
 ```
 git clone https://github.com/TLabAltoh/TLabWebViewMRTK.git
+
+cd TLabWebViewMRTK
+
+git submodule update --init
 ```
 
 ### Set Up
