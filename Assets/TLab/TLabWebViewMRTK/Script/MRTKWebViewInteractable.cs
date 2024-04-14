@@ -6,9 +6,9 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using TLab.Android.WebView;
 
-namespace TLab.XR.Oculus
+namespace TLab.XR.MRTK
 {
-    public class TLabWebViewMRTKTouchEventManager :
+    public class MRTKWebViewInteractable :
         BaseFocusHandler,
         IMixedRealityTouchHandler,
         IMixedRealityPointerHandler,

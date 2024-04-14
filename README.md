@@ -15,7 +15,7 @@ This is a project I created for Oculus Quest 2, using the Mixed Reality Toolkit,
 The policy has been changed to manage libraries in the repository as submodules after commit ``` 4a7a833 ```. Please run ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
 
 ### WebView Input System Updated
-In the sample, interaction with WebView is created based on PanExample, but interaction as uGUI is also possible. Please refer to the sample of ``` TLab\TLabWebView\Scene ```.
+Previously the interaction with WebView was based on the pan example, but currently the interaction example is based on uGUI. (2024/4/15)
 
 </details>
 
