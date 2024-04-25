@@ -511,8 +511,8 @@ namespace TLab.XR.MRTK
 
         private void UpdateTouchPos(Vector2 coord)
         {
-            m_lastXPos = (int)(coord.x * tlabWebView.WebWidth);
-            m_lastYPos = (int)(coord.y * tlabWebView.WebHeight);
+            m_lastXPos = (int)(coord.x * tlabWebView.webWidth);
+            m_lastYPos = (int)(coord.y * tlabWebView.webHeight);
         }
 
         #endregion Private Methods
