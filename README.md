@@ -4,21 +4,6 @@ Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 # Document
 [document is here](https://tlabgames.gitbook.io/tlabwebview)
 
-## Note
-
-<details><summary>please see here</summary>
-
-### This Repository only for Oculus Quest 2
-This is a project I created for Oculus Quest 2, using the Mixed Reality Toolkit, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
-
-### Module Management Policy Modified
-The policy has been changed to manage libraries in the repository as submodules after commit ``` 4a7a833 ```. Please run ``` git submodule update --init ``` to adjust the commit of the submodule to the version recommended by the project.
-
-### WebView Input System Updated
-Previously the interaction with WebView was based on the pan example, but currently the interaction example is based on uGUI. (2024/4/15)
-
-</details>
-
 ## ScreenShot
 <img src="Media/tlab_webview_mrtk_feature.gif" width="512"></img>
 
@@ -119,11 +104,9 @@ UNITYWEBVIEW_ANDROID_ENABLE_MICROPHONE
 </details>
 
 ### Sample Scene
-- Sample scenes are located in the following directories
 ```
 Assets\TLab\TLabWebViewMRTK\Scene\TLabWebView MRTK Sample.unity
 ```
-- Build and run the sample scene to Oculus Quest 2
 
 ## Link
 - [Source code of the java plugin used](https://github.com/TLabAltoh/TLabWebViewPlugin.git)
