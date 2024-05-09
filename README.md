@@ -11,6 +11,15 @@ Sample project for manipulating TLabWebView from Mixed Reality Toolkit
 - Oculus Quest 2
 - Qualcomm Adreno650
 
+## Note
+
+<details><summary>please see here</summary>
+
+### This Repository only for Oculus Quest 2
+This is a project I created for Oculus Quest 2, using the MRTK, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
+
+</details>
+
 ## Requirements
 - Unity 2021.3 LTS
 - [Mixed Reality Toolkit](https://learn.microsoft.com/ja-jp/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05)
