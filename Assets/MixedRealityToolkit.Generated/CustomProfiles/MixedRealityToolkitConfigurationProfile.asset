@@ -20,7 +20,7 @@ MonoBehaviour:
   cameraSystemType:
     reference: 
   enableInputSystem: 1
-  inputSystemProfile: {fileID: 0}
+  inputSystemProfile: {fileID: 11400000, guid: 1b1ab93ae53799b4598c6de0130934fb, type: 2}
   inputSystemType:
     reference: Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystem, Microsoft.MixedReality.Toolkit.Services.InputSystem
   enableBoundarySystem: 0
