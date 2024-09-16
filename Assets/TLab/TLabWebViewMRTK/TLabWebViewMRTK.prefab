@@ -2363,24 +2363,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_rawImage: {fileID: 610017354086947388}
   m_url: https://youtube.com
-  m_dlOption: 0
-  m_dlSubDir: downloads
-  m_webWidth: 1024
-  m_webHeight: 640
-  m_texWidth: 800
-  m_texHeight: 500
+  m_downloadOption: 0
+  m_downloadSubDirectory: downloads
+  m_webSize: {x: 1024, y: 640}
+  m_texSize: {x: 512, y: 320}
   m_jsEventCallback:
     onPageFinish: 
-    dlEvent:
+    downloadEvent:
       onStart: 
       onFinish: 
-      varDlUriName: unity_webview_dl_uri
-      varDlUrlName: unity_webview_dl_url
-      varDlIdName: unity_webview_dl_id
-    catchDlUrlEvent:
+      varUri: download_uri
+      varUrl: download_url
+      varId: download_id
+    catchDownloadUrlEvent:
       go: 
       func: 
   m_intentFilters: []
+  m_fps: 30
+  m_useCustomWidget: 0
+  m_captureMode: 0
 --- !u!114 &610017354673209477
 MonoBehaviour:
   m_ObjectHideFlags: 0
