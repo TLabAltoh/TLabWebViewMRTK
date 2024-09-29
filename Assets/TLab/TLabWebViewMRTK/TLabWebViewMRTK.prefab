@@ -2201,7 +2201,7 @@ MonoBehaviour:
       func: 
   m_intentFilters: []
   m_fps: 30
-  m_useCustomWidget: 0
+  m_useCustomWidget: 1
   m_captureMode: 0
 --- !u!114 &610017354673209477
 MonoBehaviour:
