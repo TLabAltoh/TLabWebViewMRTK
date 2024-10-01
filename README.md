@@ -4,21 +4,15 @@ Sample project for using [```TLabWebView```](https://github.com/TLabAltoh/TLabWe
 [Document is here](https://tlabgames.gitbook.io/tlabwebview)  
 [Snippets is here](https://gist.github.com/TLabAltoh/e0512b3367c25d3e1ec28ddbe95da497#file-tlabwebview-snippets-md)
 
+> [!NOTE]
+> This is a project created for Oculus Quest 2 using MRTK2, but it will not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
+
 ## ScreenShot
 <img src="Media/tlab_webview_mrtk_feature.gif" width="512"></img>
 
 ## Operating Environment
 - Oculus Quest 2
 - Qualcomm Adreno650
-
-## Note
-
-<details><summary>please see here</summary>
-
-### This Repository only for Oculus Quest 2
-This is a project I created for Oculus Quest 2, using the MRTK, but it does not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
-
-</details>
 
 ## Requirements
 - Unity 2021.3 LTS
