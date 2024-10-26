@@ -9,6 +9,6 @@ namespace TLab.XR.MRTK
         [SerializeField] private TLabWebView m_webview;
         [SerializeField] private TLabVKeyborad m_keyborad;
 
-        public void SwitchKeyboradActive() => m_keyborad.SetVisibility(!m_keyborad.isActive);
+        public void SwitchKeyboradActive() => m_keyborad.SetVisibility(!m_keyborad.isVisible);
     }
 }
