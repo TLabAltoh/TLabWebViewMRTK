@@ -40,5 +40,5 @@ Please see the setup section [```here```](https://github.com/TLabAltoh/TLabWebVi
 
 ### Sample Scene
 ```
-Assets\TLab\TLabWebViewMRTK\Scene\TLabWebView MRTK Sample.unity
+/Assets/TLab/TLabWebViewMRTK/Scene/TLabWebView MRTK Sample.unity
 ```
