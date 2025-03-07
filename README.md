@@ -1,5 +1,5 @@
 # TLabWebViewMRTK
-Sample project for using [```TLabWebView```](https://github.com/TLabAltoh/TLabWebView.git) with [```Mixed Reality Toolkit```](https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05)
+Sample project for using [```TLabWebView```](https://github.com/TLabAltoh/TLabWebView) (3D web browser / 3D WebView plugin) with [```Mixed Reality Toolkit```](https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05)
 
 [Document is here](https://tlabgames.gitbook.io/tlabwebview)  
 [Snippets is here](https://gist.github.com/TLabAltoh/e0512b3367c25d3e1ec28ddbe95da497#file-tlabwebview-snippets-md)
