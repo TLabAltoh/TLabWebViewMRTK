@@ -7,6 +7,12 @@ Sample project for using [```TLabWebView```](https://github.com/TLabAltoh/TLabWe
 > [!NOTE]
 > This is a project created for Oculus Quest 2 using MRTK2, but it will not work with HoloLens. This is because the WebView used is an Oculus (or Android) dependent system.
 
+> [!NOTE]
+> This project is configured by default not to open http sites (a blank screen is displayed); if you want to open http sites, set clearartextTrafficPermitted to true in network_sec_config.xml.
+
+> [!WARNING]
+> When upgrading a project to Unity 2022.3.x, a problem was found where the build and web page display succeeded, but the controller and hand tracking were not enabled. Since the cause is not yet known, I recommend that this project be built with Unity 2021.3.x.
+
 ## ScreenShot
 <img src="Media/tlab_webview_mrtk_feature.gif" width="512"></img>
 
