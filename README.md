@@ -13,6 +13,14 @@ Sample project for using [```TLabWebView```](https://github.com/TLabAltoh/TLabWe
 > [!WARNING]
 > When upgrading a project to Unity 2022.3.x, a problem was found where the build and web page display succeeded, but the controller and hand tracking were not enabled. Since the cause is not yet known, I recommend that this project be built with Unity 2021.3.x.
 
+> [!WARNING]
+> This project uses `HardwareBuffer` as the default `CaptureMode` for WebView. This `HardwareBuffer` option is confirmed to work with Oculus Quest, but may not work with some other devices (e.g., the WebView screen may go blank). In that case, change the `CaptureMode` from `HardwareBuffer` to `ByteBuffer`.
+>
+> <details>
+> <img src="Media/image.0.png" width="256"></img>  
+> <img src="Media/image.1.png" width="256"></img>
+> </details>
+
 ## ScreenShot
 <img src="Media/tlab_webview_mrtk_feature.gif" width="512"></img>
 
