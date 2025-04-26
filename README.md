@@ -17,7 +17,7 @@ Sample project for using [```TLabWebView```](https://github.com/TLabAltoh/TLabWe
 > This project uses `HardwareBuffer` as the default `CaptureMode` for WebView. This `HardwareBuffer` option is confirmed to work with Oculus Quest, but may not work with some other devices (e.g., the WebView screen may go blank). In that case, change the `CaptureMode` from `HardwareBuffer` to `ByteBuffer`.
 >
 > <details>
-> <img src="Media/image.0.png" width="256"></img>  
+> <img src="Media/image.0.png" width="256"></img><br>
 > <img src="Media/image.1.png" width="256"></img>
 > </details>
 
